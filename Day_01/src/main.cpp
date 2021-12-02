@@ -7,9 +7,18 @@
 #include <vector>
 using std::cout;
 using std::endl;
+// non std::algo based solutions
 int NumIncreases(const std::vector<int> &data);
 int SlidingIncrease(const std::vector<int> &data, const int &window_size);
 std::vector<int> ParseInput(std::string data_file, int data_points);
+// C++ 17 std::algo solutions
+int NumeIncreasingSTD(const std::vector<int> &data) {
+  return std::count_if(
+      data.begin(), data.end(),
+      [prev = std::numeric_limits<int>::max()](int curr) mutable {
+        return std::exchange(prev, curr) < curr;
+      });
+}
 int main() {
   // part 1
   cout << "-------------part 1 ---------------" << endl;
@@ -30,6 +39,8 @@ int main() {
   //   }
   auto aoc_data = ParseInput("../data/input.txt", 2000);
   cout << "AOC increments: " << NumIncreases(aoc_data) << endl;
+  cout << "AOC increments with STD FUNCTION!: " << NumeIncreasingSTD(aoc_data)
+       << endl;
 
   // part 2
   cout << "-------------part 2 ---------------" << endl;

@@ -19,24 +19,22 @@ int NumeIncreasingSTD(const std::vector<int> &data) {
         return std::exchange(prev, curr) < curr;
       });
 }
+
 int main() {
   // part 1
   cout << "-------------part 1 ---------------" << endl;
-  //   std::vector<int> dataA = {199, 200, 208, 210, 200,
-  //                             207, 240, 269, 260, 263};    // 2 times
-  //   std::vector<int> dataB = {1, 5, 3, 6, 4, 7, 5, 8, 10}; // 5 times
-
-  //   if (NumIncreases(dataA) != 7) {
-  //     cout << " dataA has 7 increases! - something is wrong" << endl;
-  //   }
-  //   if (NumIncreases(dataB) != 5) {
-  //     cout << " dataA has 5 increases! - something is wrong" << endl;
-  //   } else if (NumIncreases(dataA) == 7 && NumIncreases(dataB) == 5) {
-  //     cout << "things seem to be working.. but check other corner cases
-  //     ->write "
-  //             "them down "
-  //          << endl;
-  //   }
+  std::vector<int> dataA = {199, 200, 208, 210, 200,
+                            207, 240, 269, 260, 263};    // 2 times
+  std::vector<int> dataB = {1, 5, 3, 6, 4, 7, 5, 8, 10}; // 5 times
+                                                         //
+  if (NumIncreases(dataA) != 7) {
+    cout << " dataA has 7 increases! - something is wrong" << endl;
+  }
+  if (NumIncreases(dataB) != 5) {
+    cout << " dataA has 5 increases! - something is wrong" << endl;
+  } else if (NumIncreases(dataA) == 7 && NumIncreases(dataB) == 5) {
+    cout << "things seem to be working.. " << endl;
+  }
   auto aoc_data = ParseInput("../data/input.txt", 2000);
   cout << "AOC increments: " << NumIncreases(aoc_data) << endl;
   cout << "AOC increments with STD FUNCTION!: " << NumeIncreasingSTD(aoc_data)

@@ -63,8 +63,8 @@ CMAKE_BINARY_DIR = /home/willbotics/Documents/GitHub/AOC_2021/Day_02/build
 # Target rules for target CMakeFiles/turtleworld.dir
 
 # All Build rule for target.
-CMakeFiles/turtleworld.dir/all: CMakeFiles/tools.dir/all
 CMakeFiles/turtleworld.dir/all: CMakeFiles/turtle.dir/all
+CMakeFiles/turtleworld.dir/all: CMakeFiles/tools.dir/all
 	$(MAKE) -f CMakeFiles/turtleworld.dir/build.make CMakeFiles/turtleworld.dir/depend
 	$(MAKE) -f CMakeFiles/turtleworld.dir/build.make CMakeFiles/turtleworld.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/willbotics/Documents/GitHub/AOC_2021/Day_02/build/CMakeFiles --progress-num=5,6 "Built target turtleworld"

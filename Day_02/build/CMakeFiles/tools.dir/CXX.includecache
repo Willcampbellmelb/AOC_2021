@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+../include/turtle_world/Turtle.h
+tools.h
+../include/turtle_world/tools.h
+unordered_map
+-
+
 ../include/turtle_world/tools.h
 algorithm
 -
@@ -17,10 +23,14 @@ limits
 -
 numeric
 -
+sstream
+-
 string
 -
 vector
 -
+Turtle.h
+../include/turtle_world/Turtle.h
 
 /home/willbotics/Documents/GitHub/AOC_2021/Day_02/src/turtle_world/tools.cpp
 tools.h

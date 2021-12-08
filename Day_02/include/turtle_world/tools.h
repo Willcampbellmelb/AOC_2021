@@ -1,6 +1,5 @@
 #pragma once
 // most  needed libs
-#include < stream>
 #include <algorithm>
 #include <fstream>
 #include <iostream>
@@ -14,7 +13,5 @@
 using std::cerr;
 using std::cout;
 using std::endl;
-// Parsing turtle mocement command data file
-std::vector<Command> ParseCommands(std::string data_file, int data_points);
 // Parsing
 std::vector<int> ParseInput(std::string data_file, int data_points);

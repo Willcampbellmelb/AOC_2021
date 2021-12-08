@@ -1,11 +1,32 @@
 cmake_minimum_required(VERSION 3.1) # Mandatory.
-project( first_project ) # Mandatory.
+#gtest
+# include(FetchContent)
+# FetchContent_Declare(
+#   googletest
+#   URL https://github.com/google/googletest/archive/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip
+# )
+project( turtle_world ) # Mandatory.
 set( CMAKE_CXX_STANDARD 17) # Use c++17.
 # tell cmake where to look for *.hpp, *.h files
-include_directories(include/project_name/)
+include_directories(include/turtle_world/)
 # create library "libtools"
-add_library(tools src/project_name/tools.cpp) # creates libtools.a
+add_library(tools src/turtle_world/tools.cpp) # creates libtools.a
+add_library(turtle src/turtle_world/Turtle.cpp) # creates libTurtle.a
+
  # add executable main
-add_executable(main src/project_name/main.cpp) # main.o
+add_executable(turtleworld src/turtle_world/TurtleWorld.cpp) # main.o
 # tell the linker to bind these objects together
-target_link_libraries(main tools) # ./main
+target_link_libraries(turtleworld tools turtle) # ./main
+#testing 
+# enable_testing()
+# add_executable(
+#   tests/hello_test
+#   hello_test.cpp
+# )
+# target_link_libraries(
+#   hello_test
+#   gtest_main
+# )
+
+# include(GoogleTest)
+# gtest_discover_tests(hello_test)

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/turtle_world/tools.h
+algorithm
+-
+fstream
+-
+iostream
+-
+limits
+-
+numeric
+-
+string
+-
+vector
+-
+
+/home/willbotics/Documents/GitHub/AOC_2021/Day_02/src/turtle_world/tools.cpp
+tools.h
+/home/willbotics/Documents/GitHub/AOC_2021/Day_02/src/turtle_world/tools.h
+

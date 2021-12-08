@@ -7,5 +7,8 @@
 #include <numeric>
 #include <string>
 #include <vector>
-
-// your functions here
+using std::cerr;
+using std::cout;
+using std::endl;
+// parsing single file int
+std::vector<int> ParseInput(std::string data_file, int data_points);

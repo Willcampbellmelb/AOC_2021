@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtools.a  CMakeFiles/tools.dir/src/turtle_world/tools.cpp.o
+/usr/bin/ranlib libtools.a

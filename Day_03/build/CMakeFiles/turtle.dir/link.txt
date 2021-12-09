@@ -1,0 +1,2 @@
+/usr/bin/ar qc libturtle.a  CMakeFiles/turtle.dir/src/turtle_world/Turtle.cpp.o
+/usr/bin/ranlib libturtle.a

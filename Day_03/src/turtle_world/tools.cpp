@@ -34,22 +34,17 @@ std::vector<int> ParseInput(std::string data_file, int data_points) {
  */
 int PowerConsumption(const std::string &diagnostic_file,
                      const int &data_points) {
-  // parse input line by line
-  // determine size of data input (x number of bits) by reading first line
   std::string read_data;
   std::vector<int> count;
-  // read in depth measure data into vector
   std::ifstream input(diagnostic_file, std::ios_base::in);
   if (!input)
     std::cerr << "Could not open the file!" << std::endl;
   else {
-    // create dynamically sized count vector with initial vals;
     input >> read_data;
     count.reserve(read_data.size());
     std::for_each(read_data.begin(), read_data.end(),
                   [&count](const char &c) { count.emplace_back(c - '0'); });
     while (input >> read_data) {
-      // count.emplace_back(read_data);
       for (int i = 0; i < count.size(); ++i) {
         count[i] += (read_data[i] - '0');
         cout << count[i] << " ";
@@ -107,6 +102,7 @@ int EpsilonaRate(const std::vector<int> &bit_count, int data_points) {
 
   return eps;
 }
+
 /**
  * @brief
  *
@@ -115,5 +111,113 @@ int EpsilonaRate(const std::vector<int> &bit_count, int data_points) {
  * NOTE: This may be better with another data stuct, even just a vector, but i
  * am experimenting.
  */
-int OxGenRating(std::unordered_map<int, std::string>);
-// test logic
+int OxGenRating(const std::string &diagnostic_file, int bit_length) {
+
+  // parse input data into an unordered_map
+  auto Map = ParseToMap(diagnostic_file);
+  int data_points = Map.size();
+  // count nmumber of occurences of an on bit in bit x in all of the provided
+  // bitwise values
+  int bit = 0;
+  while (Map.size() > 1) {
+    auto numba = OnBitCount(Map, bit);
+    if (Map.size() % 2 == 0) {
+      if (numba >= (Map.size() / 2)) {
+        ReduceMap(Map, bit, 0);
+      } else {
+
+        ReduceMap(Map, bit, 1);
+      }
+    } else {
+      if (numba > (Map.size() / 2)) {
+        ReduceMap(Map, bit, 0);
+      } else {
+        ReduceMap(Map, bit, 1);
+      }
+    }
+    ++bit;
+  }
+  auto itr = Map.begin();
+  // convert to int and return
+  return stoi((*itr).second, 0, 2);
+}
+/**
+ * @brief
+ *
+ * @param map
+ * @param pos
+ * @param remove_val
+ * @return number of values removed from map
+ */
+int ReduceMap(std::unordered_map<int, std::string> &map, const int &pos,
+              const int &remove_val) {
+  std::vector<int> remove_keys;
+  for (auto val : map) {
+    if ((val.second[pos] - '0') == remove_val) {
+      remove_keys.emplace_back(val.first);
+    }
+  }
+  for (auto val : remove_keys) {
+    map.erase(val);
+  }
+  return remove_keys.size();
+}
+int OnBitCount(const std::unordered_map<int, std::string> &map,
+               const int &pos) {
+  int on_count = 0;
+  for (auto val : map) {
+    if ((val.second[pos] - '0') == 1)
+      on_count++;
+  }
+
+  return on_count;
+}
+std::unordered_map<int, std::string>
+ParseToMap(const std::string &diagnostic_file) {
+  std::unordered_map<int, std::string> data;
+  std::string read_data;
+  std::ifstream input(diagnostic_file, std::ios_base::in);
+  if (!input)
+    std::cerr << "Could not open the file!" << std::endl;
+  else {
+    int count = 0;
+    while (input >> read_data) {
+
+      data[count] = read_data;
+      ++count;
+    }
+  }
+  return data;
+}
+
+int OxGenRating(const std::string &diagnostic_file, int bit_length) {
+
+  // parse input data into an unordered_map
+  auto Map = ParseToMap(diagnostic_file);
+  int data_points = Map.size();
+  // count nmumber of occurences of an on bit in bit x in all of the provided
+  // bitwise values
+  int bit = 0;
+  while (Map.size() > 1) {
+    auto numba = OnBitCount(Map, bit);
+    if (Map.size() % 2 == 0) {
+      if (numba >= (Map.size() / 2)) {
+        ReduceMap(Map, bit, 0);
+      } else {
+
+        ReduceMap(Map, bit, 1);
+      }
+    } else {
+      if (numba > (Map.size() / 2)) {
+        ReduceMap(Map, bit, 0);
+      } else {
+        ReduceMap(Map, bit, 1);
+      }
+    }
+    ++bit;
+  }
+  auto itr = Map.begin();
+  // convert to int and return
+  return stoi((*itr).second, 0, 2);
+  ;
+}

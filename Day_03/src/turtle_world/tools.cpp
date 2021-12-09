@@ -120,7 +120,7 @@ int OxGenRating(const std::string &diagnostic_file, int bit_length) {
   // bitwise values
   int bit = 0;
   while (Map.size() > 1) {
-    auto numba = OnBitCount(Map, bit);
+    auto numba = OnOffBitCount(1, Map, bit);
     if (Map.size() % 2 == 0) {
       if (numba >= (Map.size() / 2)) {
         ReduceMap(Map, bit, 0);
@@ -162,16 +162,23 @@ int ReduceMap(std::unordered_map<int, std::string> &map, const int &pos,
   }
   return remove_keys.size();
 }
-int OnBitCount(const std::unordered_map<int, std::string> &map,
-               const int &pos) {
+int OnOffBitCount(const int &bit_on,
+                  const std::unordered_map<int, std::string> &map,
+                  const int &pos) {
   int on_count = 0;
   for (auto val : map) {
-    if ((val.second[pos] - '0') == 1)
+    if ((val.second[pos] - '0') == bit_on)
       on_count++;
   }
 
   return on_count;
 }
+/**
+ * @brief
+ *
+ * @param diagnostic_file
+ * @return std::unordered_map<int, std::string>
+ */
 std::unordered_map<int, std::string>
 ParseToMap(const std::string &diagnostic_file) {
   std::unordered_map<int, std::string> data;
@@ -189,8 +196,8 @@ ParseToMap(const std::string &diagnostic_file) {
   }
   return data;
 }
-
-int OxGenRating(const std::string &diagnostic_file, int bit_length) {
+// TODO: MAKE THIS WORK
+int CO2GenRating(const std::string &diagnostic_file, int bit_length) {
 
   // parse input data into an unordered_map
   auto Map = ParseToMap(diagnostic_file);
@@ -199,16 +206,16 @@ int OxGenRating(const std::string &diagnostic_file, int bit_length) {
   // bitwise values
   int bit = 0;
   while (Map.size() > 1) {
-    auto numba = OnBitCount(Map, bit);
+    auto numba = OnOffBitCount(0, Map, bit);
     if (Map.size() % 2 == 0) {
-      if (numba >= (Map.size() / 2)) {
+      if (numba <= (Map.size() / 2)) {
         ReduceMap(Map, bit, 0);
       } else {
 
         ReduceMap(Map, bit, 1);
       }
     } else {
-      if (numba > (Map.size() / 2)) {
+      if (numba < (Map.size() / 2)) {
         ReduceMap(Map, bit, 0);
       } else {
         ReduceMap(Map, bit, 1);

@@ -20,3 +20,13 @@ int PowerConsumption(const std::string &diagnostic_file,
                      const int &data_points);
 int GammaRate(const std::vector<int> &bit_count, int data_points);
 int EpsilonaRate(const std::vector<int> &bit_count, int data_points);
+int OxGenRating(const std::string &diagnostic_file, int bit_length);
+int CO2GenRating(const std::string &diagnostic_file, int bit_length);
+std::unordered_map<int, std::string>
+ParseToMap(const std::string &diagnostic_file);
+int OnOffBitCount(const int &bit_on,
+                  const std::unordered_map<int, std::string> &map,
+                  const int &pos);
+
+int ReduceMap(std::unordered_map<int, std::string> &map, const int &pos,
+              const int &remove_val);

@@ -28,28 +28,28 @@ The CXX compiler identification is Clang, found in "/home/willbotics/Documents/G
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cc51e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cc51e.dir/build.make CMakeFiles/cmTC_cc51e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_84aa4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_84aa4.dir/build.make CMakeFiles/cmTC_84aa4.dir/build
 make[1]: Entering directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cc51e.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_cc51e.dir/testCCompiler.c.o   -c /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_cc51e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc51e.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cc51e.dir/testCCompiler.c.o  -o cmTC_cc51e 
+Building C object CMakeFiles/cmTC_84aa4.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_84aa4.dir/testCCompiler.c.o   -c /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_84aa4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84aa4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_84aa4.dir/testCCompiler.c.o  -o cmTC_84aa4 
 make[1]: Leaving directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3c076/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3c076.dir/build.make CMakeFiles/cmTC_3c076.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_74098/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74098.dir/build.make CMakeFiles/cmTC_74098.dir/build
 make[1]: Entering directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3c076.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_3c076.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_3c076
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c076.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_3c076.dir/CMakeCCompilerABI.c.o  -o cmTC_3c076 
+Building C object CMakeFiles/cmTC_74098.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_74098.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_74098
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74098.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_74098.dir/CMakeCCompilerABI.c.o  -o cmTC_74098 
 clang version 10.0.0-4ubuntu1~18.04.2 
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -67,7 +67,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
 Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3c076 /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_3c076.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_74098 /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_74098.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
 
 
@@ -75,14 +75,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3c076/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3c076.dir/build.make CMakeFiles/cmTC_3c076.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_74098/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_74098.dir/build.make CMakeFiles/cmTC_74098.dir/build]
   ignore line: [make[1]: Entering directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_3c076.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_3c076.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_3c076]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c076.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_3c076.dir/CMakeCCompilerABI.c.o  -o cmTC_3c076 ]
+  ignore line: [Building C object CMakeFiles/cmTC_74098.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_74098.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_74098]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74098.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_74098.dir/CMakeCCompilerABI.c.o  -o cmTC_74098 ]
   ignore line: [clang version 10.0.0-4ubuntu1~18.04.2 ]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -102,7 +102,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3c076 /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_3c076.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_74098 /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_74098.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-zrelro] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3c076] ==> ignore
+    arg [cmTC_74098] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtbegin.o] ==> ignore
@@ -128,7 +128,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/llvm-10/bin/../lib] ==> dir [/usr/lib/llvm-10/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_3c076.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_74098.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -159,14 +159,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_743f7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_743f7.dir/build.make CMakeFiles/cmTC_743f7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_be036/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be036.dir/build.make CMakeFiles/cmTC_be036.dir/build
 make[1]: Entering directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_743f7.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_743f7.dir/feature_tests.c.o   -c /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_743f7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_743f7.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_743f7.dir/feature_tests.c.o  -o cmTC_743f7 
+Building C object CMakeFiles/cmTC_be036.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_be036.dir/feature_tests.c.o   -c /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_be036
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be036.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_be036.dir/feature_tests.c.o  -o cmTC_be036 
 make[1]: Leaving directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
 
 
@@ -179,14 +179,14 @@ make[1]: Leaving directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/bu
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cc99a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cc99a.dir/build.make CMakeFiles/cmTC_cc99a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d00a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d00a6.dir/build.make CMakeFiles/cmTC_d00a6.dir/build
 make[1]: Entering directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cc99a.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_cc99a.dir/feature_tests.c.o   -c /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_cc99a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc99a.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cc99a.dir/feature_tests.c.o  -o cmTC_cc99a 
+Building C object CMakeFiles/cmTC_d00a6.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_d00a6.dir/feature_tests.c.o   -c /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d00a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d00a6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d00a6.dir/feature_tests.c.o  -o cmTC_d00a6 
 make[1]: Leaving directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
 
 
@@ -199,14 +199,14 @@ make[1]: Leaving directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/bu
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_09fb9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_09fb9.dir/build.make CMakeFiles/cmTC_09fb9.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_00ced/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00ced.dir/build.make CMakeFiles/cmTC_00ced.dir/build
 make[1]: Entering directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_09fb9.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_09fb9.dir/feature_tests.c.o   -c /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_09fb9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09fb9.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_09fb9.dir/feature_tests.c.o  -o cmTC_09fb9 
+Building C object CMakeFiles/cmTC_00ced.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_00ced.dir/feature_tests.c.o   -c /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_00ced
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00ced.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_00ced.dir/feature_tests.c.o  -o cmTC_00ced 
 make[1]: Leaving directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
 
 
@@ -217,28 +217,28 @@ make[1]: Leaving directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/bu
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8b589/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8b589.dir/build.make CMakeFiles/cmTC_8b589.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_75663/fast"
+/usr/bin/make -f CMakeFiles/cmTC_75663.dir/build.make CMakeFiles/cmTC_75663.dir/build
 make[1]: Entering directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8b589.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_8b589.dir/testCXXCompiler.cxx.o -c /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_8b589
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b589.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_8b589.dir/testCXXCompiler.cxx.o  -o cmTC_8b589 
+Building CXX object CMakeFiles/cmTC_75663.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_75663.dir/testCXXCompiler.cxx.o -c /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_75663
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75663.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_75663.dir/testCXXCompiler.cxx.o  -o cmTC_75663 
 make[1]: Leaving directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_88485/fast"
-/usr/bin/make -f CMakeFiles/cmTC_88485.dir/build.make CMakeFiles/cmTC_88485.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d0f09/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d0f09.dir/build.make CMakeFiles/cmTC_d0f09.dir/build
 make[1]: Entering directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_88485.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_88485.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_88485
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88485.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_88485.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_88485 
+Building CXX object CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_d0f09
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0f09.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d0f09 
 clang version 10.0.0-4ubuntu1~18.04.2 
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -256,7 +256,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
 Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_88485 /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_88485.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d0f09 /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
 
 
@@ -264,14 +264,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_88485/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_88485.dir/build.make CMakeFiles/cmTC_88485.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d0f09/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d0f09.dir/build.make CMakeFiles/cmTC_d0f09.dir/build]
   ignore line: [make[1]: Entering directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_88485.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_88485.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_88485]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88485.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_88485.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_88485 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_d0f09]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0f09.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d0f09 ]
   ignore line: [clang version 10.0.0-4ubuntu1~18.04.2 ]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -291,7 +291,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_88485 /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_88485.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d0f09 /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-zrelro] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_88485] ==> ignore
+    arg [cmTC_d0f09] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/9/crtbegin.o] ==> ignore
@@ -317,7 +317,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/llvm-10/bin/../lib] ==> dir [/usr/lib/llvm-10/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_88485.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_d0f09.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -346,14 +346,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_687b0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_687b0.dir/build.make CMakeFiles/cmTC_687b0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d79b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d79b4.dir/build.make CMakeFiles/cmTC_d79b4.dir/build
 make[1]: Entering directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_687b0.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_687b0.dir/feature_tests.cxx.o -c /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_687b0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_687b0.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_687b0.dir/feature_tests.cxx.o  -o cmTC_687b0 
+Building CXX object CMakeFiles/cmTC_d79b4.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_d79b4.dir/feature_tests.cxx.o -c /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d79b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d79b4.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_d79b4.dir/feature_tests.cxx.o  -o cmTC_d79b4 
 make[1]: Leaving directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
 
 
@@ -419,14 +419,14 @@ make[1]: Leaving directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/bu
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c3f3d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c3f3d.dir/build.make CMakeFiles/cmTC_c3f3d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f2818/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2818.dir/build.make CMakeFiles/cmTC_f2818.dir/build
 make[1]: Entering directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c3f3d.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_c3f3d.dir/feature_tests.cxx.o -c /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c3f3d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3f3d.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c3f3d.dir/feature_tests.cxx.o  -o cmTC_c3f3d 
+Building CXX object CMakeFiles/cmTC_f2818.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_f2818.dir/feature_tests.cxx.o -c /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f2818
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2818.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f2818.dir/feature_tests.cxx.o  -o cmTC_f2818 
 make[1]: Leaving directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
 
 
@@ -492,14 +492,14 @@ make[1]: Leaving directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/bu
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_539eb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_539eb.dir/build.make CMakeFiles/cmTC_539eb.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b041e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b041e.dir/build.make CMakeFiles/cmTC_b041e.dir/build
 make[1]: Entering directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_539eb.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_539eb.dir/feature_tests.cxx.o -c /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_539eb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_539eb.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_539eb.dir/feature_tests.cxx.o  -o cmTC_539eb 
+Building CXX object CMakeFiles/cmTC_b041e.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_b041e.dir/feature_tests.cxx.o -c /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b041e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b041e.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_b041e.dir/feature_tests.cxx.o  -o cmTC_b041e 
 make[1]: Leaving directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
 
 
@@ -565,14 +565,14 @@ make[1]: Leaving directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/bu
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f96e0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f96e0.dir/build.make CMakeFiles/cmTC_f96e0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5e38c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e38c.dir/build.make CMakeFiles/cmTC_5e38c.dir/build
 make[1]: Entering directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f96e0.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_f96e0.dir/feature_tests.cxx.o -c /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f96e0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f96e0.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f96e0.dir/feature_tests.cxx.o  -o cmTC_f96e0 
+Building CXX object CMakeFiles/cmTC_5e38c.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_5e38c.dir/feature_tests.cxx.o -c /home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5e38c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e38c.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_5e38c.dir/feature_tests.cxx.o  -o cmTC_5e38c 
 make[1]: Leaving directory '/home/willbotics/Documents/GitHub/AOC_2021/Day_03/build/CMakeFiles/CMakeTmp'
 
 
